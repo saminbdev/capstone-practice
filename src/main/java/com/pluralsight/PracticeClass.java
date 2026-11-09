@@ -11,11 +11,11 @@ public class PracticeClass {
         names.add("Blake");
 
 
-        for (int i = 0; i < names.size(); i++) {
+        for (int i = names.size() -1; i>=0; i--) {
             System.out.println(names.get(i));
         }
     }
 }
-        
+
 
 
